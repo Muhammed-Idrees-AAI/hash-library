@@ -1,6 +1,8 @@
 set(LibHashLibrary hash_lib)
 
 add_library(${LibHashLibrary} STATIC
+    md5.h
+    md5.cpp
     sha256.h
     sha256.cpp) #Note: Only Need to add sha256 for now...
 
